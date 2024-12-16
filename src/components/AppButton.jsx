@@ -15,7 +15,7 @@ setActiveLang(newLanguages);
        {languages.map((curLang, id ) => (
             <button onClick={() => {changeLanguages(curLang.description)}} key={curLang.id}> {curLang.title}</button>
          ))}
-         <div>
+         <div className="border">
            
            {activeLang}
             </div>

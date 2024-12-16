@@ -1,5 +1,5 @@
 import AppButton from "./components/AppButton"
-import AppContent from "./components/AppContent"
+
 import AppHeader from "./components/AppHeader"
 
 
@@ -13,7 +13,6 @@ function App() {
         <AppButton />
       </div>
 
-      <AppContent />
     </>
   )
 }
